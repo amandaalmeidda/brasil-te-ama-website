@@ -1,0 +1,22 @@
+{
+  "description": "Component definitions and specifications",
+  "components": {
+    "button": {
+      "variants": ["primary", "secondary", "outline"],
+      "sizes": ["sm", "md", "lg"],
+      "states": ["default", "hover", "active", "disabled"]
+    },
+    "card": {
+      "variants": ["default", "elevated", "outlined"],
+      "border-radius": "8px"
+    },
+    "input": {
+      "variants": ["text", "email", "password", "textarea"],
+      "sizes": ["sm", "md", "lg"]
+    },
+    "navigation": {
+      "header": "Primary navigation",
+      "footer": "Footer navigation"
+    }
+  }
+}
