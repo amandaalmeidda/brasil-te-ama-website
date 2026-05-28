@@ -198,6 +198,21 @@
   </div>
 </section>
 
+<!-- MOOD BAND -->
+<section class="section section--white">
+  <div class="container">
+    <div class="mood-band fade-up">
+      <image-slot id="empresas-mood" style="width:100%;height:auto;aspect-ratio:21/7;" shape="rect" fit="cover" placeholder="Imagem ambiente — esperança, mãos, comunidade, natureza"></image-slot>
+      <div class="mood-band__overlay">
+        <div class="mood-band__text">
+          <span class="eyebrow">Propósito que aparece</span>
+          <p class="mood-band__quote">O que a gente faz, aparece.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- PROVA SOCIAL -->
 <section class="section section--alt">
   <div class="container">
@@ -211,10 +226,7 @@
       
       <article class="imgcard fade-up delay-1">
         <div class="imgcard__media">
-          <div class="placeholder-photo" style="background:
-            radial-gradient(circle at 20% 30%, rgba(142,31,45,.22) 0, transparent 50%),
-            radial-gradient(circle at 70% 50%, rgba(183,154,99,.22) 0, transparent 55%),
-            linear-gradient(135deg, #E5D3D6 0%, #C9B0B5 100%);"></div>
+          <image-slot id="empresas-photo-1" style="width:100%; height:100%;" shape="rect" fit="cover" placeholder="Arraste uma foto"></image-slot>
           <div class="imgcard__badge">Quarta do Cidadão</div>
         </div>
         <div class="imgcard__body">
@@ -225,10 +237,7 @@
       </article>
       <article class="imgcard fade-up delay-2">
         <div class="imgcard__media">
-          <div class="placeholder-photo" style="background:
-            radial-gradient(circle at 35% 30%, rgba(142,31,45,.22) 0, transparent 50%),
-            radial-gradient(circle at 70% 60%, rgba(183,154,99,.22) 0, transparent 55%),
-            linear-gradient(135deg, #E5D3D6 0%, #C9B0B5 100%);"></div>
+          <image-slot id="empresas-photo-2" style="width:100%; height:100%;" shape="rect" fit="cover" placeholder="Arraste uma foto"></image-slot>
           <div class="imgcard__badge">Atleta Edilson</div>
         </div>
         <div class="imgcard__body">
@@ -239,10 +248,7 @@
       </article>
       <article class="imgcard fade-up delay-3">
         <div class="imgcard__media">
-          <div class="placeholder-photo" style="background:
-            radial-gradient(circle at 50% 30%, rgba(142,31,45,.22) 0, transparent 50%),
-            radial-gradient(circle at 70% 70%, rgba(183,154,99,.22) 0, transparent 55%),
-            linear-gradient(135deg, #E5D3D6 0%, #C9B0B5 100%);"></div>
+          <image-slot id="empresas-photo-3" style="width:100%; height:100%;" shape="rect" fit="cover" placeholder="Arraste uma foto"></image-slot>
           <div class="imgcard__badge">Lançamento do Instituto</div>
         </div>
         <div class="imgcard__body">
@@ -284,7 +290,7 @@
       <article class="card fade-up delay-1" style="padding: 0;">
         <div style="display: flex; align-items: stretch;">
           <div style="width: 140px; background: var(--logo-circle); display: flex; align-items: flex-end; justify-content: center; padding: 16px; position: relative;">
-            <div class="placeholder-photo" style="position: absolute; inset: 0; opacity: .5;"></div>
+            <image-slot id="empresas-portrait-4" style="position:absolute; inset:0; width:100%; height:100%;" shape="rect" fit="cover" placeholder="Arraste a foto"></image-slot>
             <div style="font-family: var(--font-lora); font-size: 56px; color: rgba(255,255,255,.6); font-weight: 700; line-height: 1; position: relative;">FN</div>
           </div>
           <div style="flex: 1; padding: 24px;">
@@ -297,7 +303,7 @@
       <article class="card fade-up delay-2" style="padding: 0;">
         <div style="display: flex; align-items: stretch;">
           <div style="width: 140px; background: var(--logo-circle); display: flex; align-items: flex-end; justify-content: center; padding: 16px; position: relative;">
-            <div class="placeholder-photo" style="position: absolute; inset: 0; opacity: .5;"></div>
+            <image-slot id="empresas-portrait-5" style="position:absolute; inset:0; width:100%; height:100%;" shape="rect" fit="cover" placeholder="Arraste a foto"></image-slot>
             <div style="font-family: var(--font-lora); font-size: 56px; color: rgba(255,255,255,.6); font-weight: 700; line-height: 1; position: relative;">SV</div>
           </div>
           <div style="flex: 1; padding: 24px;">
@@ -483,6 +489,7 @@
 </footer>
 
 
+<script src="image-slot.js"></script>
 <script src="enhancements.js" defer></script>
 </body>
 </html>
